@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.data-container{
+  left:0;
+  top:15%;
+  bottom:0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  height: 850px;
+  width: 850px;
+  /* background-color: aliceblue; */
+}
+
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 850px;
+  position: absolute;
+  left: 35%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+.image-name {
+  position: absolute;
+  left: 25%;
+  top: 2%;
+}
+
+.image-display {
+  position: relative;
+  left: 30%;
+  top: 10%;
+}
+
+.image-view {
+  width: 70%;
+  height: 70%;
+}
+
+.data-display {
+  position: relative;
+  left: 37%;
+  top: 10%;
+}
+
+.file-name-display {
+  left: 15%;
+  width: 15%;
+}
+
+.file-value-display {
+  left: 20%;
+}
+
+.key-display {
+  width: 18%;
+}
+
+.value-display {
+  width: 35%;
+}
+
+.button-display {
+  position: relative;
+  left: 40%;
+  top: 55%;
+}
+
+.save-button {
+  position: relative;
+  left: 60%;
+  top: 150%;
+}
+
+.back-button {
+  position: absolute;
+  left: -15%;
+  top: 105%;
+}
+
+.next-button {
+  position: absolute;
+  left: 60%;
+  top: 105%;
+}
+
+.image-list {
+  position: absolute;
+  left: 0%;
+  top: 20%;
+}
+
+.image-zoom-style {
+  width: 5%;
+  height: 5%;
+}
+
+.key-class {
+  position: relative;
+  left: 5%
+}
+
+.value-class {
+  position: relative;
+  left: 30%
+}
